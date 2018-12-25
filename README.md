@@ -1,27 +1,58 @@
-# MaterialExamples
+# Environment
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.1.
+```$xslt
+Angular CLI: 7.1.3
+Node: 11.0.0
+OS: darwin x64
+Angular: 7.1.3
+... animations, cli, common, compiler, compiler-cli, core, forms
+... language-service, platform-browser, platform-browser-dynamic
+... router
 
-## Development server
+Package                            Version
+------------------------------------------------------------
+@angular-devkit/architect          0.11.3
+@angular-devkit/build-angular      0.11.3
+@angular-devkit/build-optimizer    0.11.3
+@angular-devkit/build-webpack      0.11.3
+@angular-devkit/core               7.1.3
+@angular-devkit/schematics         7.1.3
+@angular/cdk                       7.1.1
+@angular/material                  7.1.1
+@angular/material-moment-adapter   7.1.1
+@ngtools/webpack                   7.1.3
+@schematics/angular                7.1.3
+@schematics/update                 0.11.3
+rxjs                               6.3.3
+typescript                         3.1.6
+webpack                            4.23.1
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Introduction
 
-## Code scaffolding
+This repository is a Monorepo project which created by two methods and including [Angular Material](https://material.angular.io/components/categories) examples.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- pattern 1( example-one ): declare all components which related to root module.
+- pattern 2( example-two ): change all components to modules and import them in parent modules.
 
-## Build
+Since I need moderate source code, I use Angular Material examples. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+# Purpose
 
-## Running unit tests
+Developer who try to develop with Angular, tend to use pattern 1 I think ( I did too ).
+But I recommend pattern 2 because of development efficiency.
+In Addition, spend time to change pattern 1 to 2, therefore I want to express the difference between pattern 1 and 2.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Why Pattern 2 is better than 1
 
-## Running end-to-end tests
+Please see these two module and compare.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```
+~example-one/src/app/roots/categories.module.ts
 
-## Further help
+~example-two/src/app/roots/categories.module.ts
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Declare all component in root module so that you might feel that it is hard to read. 
+- root module manage all modules which belong to declared components, then you cannot edit source code easily.
+- When a project use two or more lazy loading root modules and use same components, then you need to change component to module after all.

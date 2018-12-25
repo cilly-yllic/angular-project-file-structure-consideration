@@ -1,0 +1,14 @@
+<div class="description" *ngIf="!category">
+  Angular Material comprises a range of components which implement common interaction patterns according to the Material Design specification.
+</div>
+
+<div class="cards">
+  <mat-card class="card" *ngFor="let link of links" [routerLink]="link.link">
+    <mat-card-header>
+      <mat-card-title>{{link.title}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      {{link.content}}
+    </mat-card-content>
+  </mat-card>
+</div>

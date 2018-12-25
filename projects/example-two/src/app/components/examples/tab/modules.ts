@@ -1,0 +1,10 @@
+export { GroupBasicModule as TabGroupBasicModule } from './group-basic/group-basic.module';
+export { GroupCustomLabelModule as TabGroupCustomLabelModule } from './group-custom-label/group-custom-label.module';
+export { GroupDynamicHeightModule as TabGroupDynamicHeightModule } from './group-dynamic-height/group-dynamic-height.module';
+export { GroupDynamicModule as TabGroupDynamicModule } from './group-dynamic/group-dynamic.module';
+export { GroupHeaderBelowModule as TabGroupHeaderBelowModule } from './group-header-below/group-header-below.module';
+export { GroupLazyLoadedModule as TabGroupLazyLoadedModule } from './group-lazy-loaded/group-lazy-loaded.module';
+export { GroupStretchedModule as TabGroupStretchedModule } from './group-stretched/group-stretched.module';
+export { GroupThemeModule as TabGroupThemeModule } from './group-theme/group-theme.module';
+export { GroupAsyncModule as TabGroupAsyncModule } from './group-async/group-async.module';
+export { NavBarBasicModule as TabNavBarBasicModule } from './nav-bar-basic/nav-bar-basic.module';

@@ -1,0 +1,15 @@
+.description {
+  padding: 25px 40px 0;
+}
+.cards {
+  display: inline;
+  flex-wrap: wrap;
+}
+.card {
+  cursor: pointer;
+  cursor: hand;
+  display: inline-block;
+  margin: 20px;
+  vertical-align: top;
+  width: 260px;
+}

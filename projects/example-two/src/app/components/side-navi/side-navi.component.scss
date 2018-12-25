@@ -1,0 +1,7 @@
+a.active {
+  color: #000000;
+}
+
+a:not(.active) {
+  color: #808080;
+}

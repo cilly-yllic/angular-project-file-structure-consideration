@@ -1,0 +1,12 @@
+export { OverviewComponent as DatepickerOverviewComponent } from './overview/overview.component';
+export { StartViewComponent as DatepickerStartViewComponent } from './start-view/start-view.component';
+export { ValueComponent as DatepickerValueComponent } from './value/value.component';
+export { MinMaxComponent as DatepickerMinMaxComponent } from './min-max/min-max.component';
+export { FilterComponent as DatepickerFilterComponent } from './filter/filter.component';
+export { EventsComponent as DatepickerEventsComponent } from './events/events.component';
+export { DisabledComponent as DatepickerDisabledComponent } from './disabled/disabled.component';
+export { TouchComponent as DatepickerTouchComponent } from './touch/touch.component';
+export { ApiComponent as DatepickerApiComponent } from './api/api.component';
+export { LocaleComponent as DatepickerLocaleComponent } from './locale/locale.component';
+export { MomentComponent as DatepickerMomentComponent } from './moment/moment.component';
+export { FormatsComponent as DatepickerFormatsComponent } from './formats/formats.component';

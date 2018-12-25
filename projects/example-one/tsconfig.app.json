@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../../out-tsc/app",
+    "types": [],
+    "baseUrl": "./",
+    "paths": {
+      "~pages/*": [ "src/app/components/pages/*" ],
+      "~layouts/*": [ "src/app/components/layouts/*" ],
+      "~examples/*": [ "src/app/components/examples/*" ],
+      "~dynamic": [ "src/app/components/dynamic/index.ts" ]
+    }
+  },
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts"
+  ]
+}

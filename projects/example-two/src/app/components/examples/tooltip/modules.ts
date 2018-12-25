@@ -1,0 +1,9 @@
+export { OverviewModule as TooltipOverviewModule } from './overview/overview.module';
+export { PositionModule as TooltipPositionModule } from './position/position.module';
+export { CustomClassModule as TooltipCustomClassModule } from './custom-class/custom-class.module';
+export { DelayModule as TooltipDelayModule } from './delay/delay.module';
+export { DisabledModule as TooltipDisabledModule } from './disabled/disabled.module';
+export { ManualModule as TooltipManualModule } from './manual/manual.module';
+export { MessageModule as TooltipMessageModule } from './message/message.module';
+export { ModifiedDefaultsModule as TooltipModifiedDefaultsModule } from './modified-defaults/modified-defaults.module';
+export { AutoHideModule as TooltipAutoHideModule } from './auto-hide/auto-hide.module';

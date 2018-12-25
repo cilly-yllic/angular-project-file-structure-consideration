@@ -1,0 +1,9 @@
+export { OverviewComponent as TooltipOverviewComponent } from './overview/overview.component';
+export { PositionComponent as TooltipPositionComponent } from './position/position.component';
+export { CustomClassComponent as TooltipCustomClassComponent } from './custom-class/custom-class.component';
+export { DelayComponent as TooltipDelayComponent } from './delay/delay.component';
+export { DisabledComponent as TooltipDisabledComponent } from './disabled/disabled.component';
+export { ManualComponent as TooltipManualComponent } from './manual/manual.component';
+export { MessageComponent as TooltipMessageComponent } from './message/message.component';
+export { ModifiedDefaultsComponent as TooltipModifiedDefaultsComponent } from './modified-defaults/modified-defaults.component';
+export { AutoHideComponent as TooltipAutoHideComponent } from './auto-hide/auto-hide.component';

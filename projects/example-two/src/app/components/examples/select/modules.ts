@@ -1,0 +1,12 @@
+export { OverviewModule as SelectOverviewModule } from './overview/overview.module';
+export { ValueBindingModule as SelectValueBindingModule } from './value-binding/value-binding.module';
+export { FormModule as SelectFormModule } from './form/form.module';
+export { HintErrorModule as SelectHintErrorModule } from './hint-error/hint-error.module';
+export { DisabledModule as SelectDisabledModule } from './disabled/disabled.module';
+export { ResetModule as SelectResetModule } from './reset/reset.module';
+export { OptionGroupModule as SelectOptionGroupModule } from './option-group/option-group.module';
+export { MultipleModule as SelectMultipleModule } from './multiple/multiple.module';
+export { CustomTriggerModule as SelectCustomTriggerModule } from './custom-trigger/custom-trigger.module';
+export { NoRippleModule as SelectNoRippleModule } from './no-ripple/no-ripple.module';
+export { PanelClassModule as SelectPanelClassModule } from './panel-class/panel-class.module';
+export { ErrorStateMatcherModule as SelectErrorStateMatcherModule } from './error-state-matcher/error-state-matcher.module';
