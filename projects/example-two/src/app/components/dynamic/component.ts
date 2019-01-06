@@ -7,7 +7,7 @@ import { DynamicClass } from './class';
 @Component({
   selector: 'app-dynamic-component',
   template: `<app-layout-example [title]="title">
-  <ng-container><ng-template appDynamic></ng-template></ng-container>
+  <ng-template appDynamic></ng-template>
 </app-layout-example>`,
 })
 export class DynamicComponent implements OnInit {
