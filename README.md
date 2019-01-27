@@ -1,31 +1,29 @@
 # Environment
 
 ```$xslt
-Angular CLI: 7.1.3
-Node: 11.0.0
+Angular CLI: 7.2.1
+Node: 11.6.0
 OS: darwin x64
-Angular: 7.1.3
-... animations, cli, common, compiler, compiler-cli, core, forms
-... language-service, platform-browser, platform-browser-dynamic
-... router
+Angular: 7.2.2
+... animations, cdk, common, compiler, compiler-cli, core, forms
+... language-service, material, material-moment-adapter
+... platform-browser, platform-browser-dynamic, router
 
-Package                            Version
-------------------------------------------------------------
-@angular-devkit/architect          0.11.3
-@angular-devkit/build-angular      0.11.3
-@angular-devkit/build-optimizer    0.11.3
-@angular-devkit/build-webpack      0.11.3
-@angular-devkit/core               7.1.3
-@angular-devkit/schematics         7.1.3
-@angular/cdk                       7.1.1
-@angular/material                  7.1.1
-@angular/material-moment-adapter   7.1.1
-@ngtools/webpack                   7.1.3
-@schematics/angular                7.1.3
-@schematics/update                 0.11.3
-rxjs                               6.3.3
-typescript                         3.1.6
-webpack                            4.23.1
+Package                           Version
+-----------------------------------------------------------
+@angular-devkit/architect         0.12.3
+@angular-devkit/build-angular     0.12.3
+@angular-devkit/build-optimizer   0.12.3
+@angular-devkit/build-webpack     0.12.3
+@angular-devkit/core              7.2.3
+@angular-devkit/schematics        7.2.1
+@angular/cli                      7.2.1
+@ngtools/webpack                  7.2.3
+@schematics/angular               7.2.1
+@schematics/update                0.12.1
+rxjs                              6.3.3
+typescript                        3.2.4
+webpack                           4.28.4
 ```
 
 # Introduction
